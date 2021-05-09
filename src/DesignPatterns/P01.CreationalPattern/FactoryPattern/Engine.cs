@@ -21,6 +21,9 @@ namespace P01.CreationalPattern.FactoryPattern
 
         public void Run()
         {
+            Console.WriteLine($"Possible commands are: '{FINISH_COMMAND}', '{CREATE_COMMAND} [name of instrument]'{Environment.NewLine}");
+
+            Console.WriteLine("Enter a command:");
             string input;
             while ((input = Console.ReadLine()) != FINISH_COMMAND)
             {

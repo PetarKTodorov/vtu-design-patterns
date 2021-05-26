@@ -38,7 +38,7 @@
 
         public override void Receive(string from, string message)
         {
-            Console.Write("Adult users: ");
+            Console.Write("Send to adult user: ");
             base.Receive(from, message);
         }
     }

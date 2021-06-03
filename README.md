@@ -5,7 +5,6 @@ The application register celebrities into chat room and then they can chat betwe
 
 ## Implemented design patterns
 * Creational patterns
-	* Factory Method
 	* Abstract Factory
 * Structural patterns
 	* Facade

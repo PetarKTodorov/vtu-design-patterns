@@ -1,7 +1,5 @@
 ﻿namespace CelebritiesChatroom.Models.Commands
 {
-    using System;
-
     using CelebritiesChatroom.Common;
     using CelebritiesChatroom.Models.Chatrooms;
     using CelebritiesChatroom.Models.Commands.Interfaces;

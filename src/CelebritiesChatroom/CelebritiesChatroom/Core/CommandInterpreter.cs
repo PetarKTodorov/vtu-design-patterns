@@ -20,6 +20,7 @@
         public void ProcessCommand(string input)
         {
             string[] tokens = input.Split(' ').ToArray();
+
             string commandType = tokens.First();
             string[] arguments = tokens.Skip(1).ToArray();
 
